@@ -106,6 +106,7 @@ body {
   padding-right: 40px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 .centro h2{
@@ -120,10 +121,6 @@ body {
 .objetivo{
   height: 85px;
   padding-left: 150px;
-}
-
-.presentfinal{
-  padding-bottom: 35px;
 }
 
 .presentacion, .busqueda, .artfrank, .artjhoan{

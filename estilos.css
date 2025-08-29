@@ -27,17 +27,20 @@ body {
   font-weight: 700;
   letter-spacing: 1.5px; 
   margin: 10px 0 10px 40px;
+  padding-left: 40px;
   opacity: 0.85;
 }
 
-.titulo p {
+.titulo p{
   color: #dcdcdc;   
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 17px;       
   font-style: italic; 
   letter-spacing: 0.5px;
   margin: 0;
-  margin-left:50px;
+  padding-left: 85px;
+  text-align: left;
+
 }
 
 .encabezado img{
@@ -55,7 +58,8 @@ body {
   align-items: flex-start;
   margin: auto;
   max-width: 82%;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto; 
 }
 
 .menu{
@@ -88,55 +92,47 @@ body {
   color: white;
 }
 
-.centro h1,h2,h3,h4,h5,h6,p{
-  color: rgba(255, 255, 255, 0.8);
-  padding-left: 40px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 400;
-}
-
-.planteamiento{
-  font-size: 25px;
-  text-align: center;
-}
 .explicacionboton{
   text-align: center;
   font-size: 10px;
   text-decoration: underline;
   top: 0;
+  margin-top: 2px; 
+}
+
+.centro h1,h2,h3,h4,h5,h6,p{
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.centro h2{
+  text-decoration: underline;
+  font-size: 25px;
 }
 
 .objetivo{
-
-  display: block;
-  margin: 0 auto;
   height: 85px;
-  padding-bottom: 20px;
+  padding-left: 150px;
 }
+
+.presentfinal{
+  padding-bottom: 35px;
+}
+
 .presentacion{
   display: none;
-}
-
-.presentacion h2{
- text-decoration: underline;
-}
-
-.presentacion p{
-  text-align: center;
-  padding-right: 120px;
 }
 
 .busqueda{
   display: none;
 }
 
-.busqueda h1,h2,h3,h4,h5,h6,p{
-  color: rgba(255, 255, 255, 0.8);
-  padding-left: 40px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 400;
-}
-
-.busqueda h2{
- text-decoration: underline;
+.busqueda img {
+  max-width: 45%;   
+  height: auto;     
+  display: block;   
+  padding-left: 150px;
 }

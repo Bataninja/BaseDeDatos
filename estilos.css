@@ -74,7 +74,7 @@ body {
   color: rgb(223, 202, 176);
   width: 100%;
   padding: 20px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.4;    
   font-weight: 600;
   letter-spacing: 0.5px; 
@@ -86,4 +86,57 @@ body {
   text-decoration: underline;
   background-color: rgba(56, 29, 65, 0.05);
   color: white;
+}
+
+.centro h1,h2,h3,h4,h5,h6,p{
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.planteamiento{
+  font-size: 25px;
+  text-align: center;
+}
+.explicacionboton{
+  text-align: center;
+  font-size: 10px;
+  text-decoration: underline;
+  top: 0;
+}
+
+.objetivo{
+
+  display: block;
+  margin: 0 auto;
+  height: 85px;
+  padding-bottom: 20px;
+}
+.presentacion{
+  display: none;
+}
+
+.presentacion h2{
+ text-decoration: underline;
+}
+
+.presentacion p{
+  text-align: center;
+  padding-right: 120px;
+}
+
+.busqueda{
+  display: none;
+}
+
+.busqueda h1,h2,h3,h4,h5,h6,p{
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.busqueda h2{
+ text-decoration: underline;
 }

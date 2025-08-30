@@ -29,19 +29,6 @@ function mostrarBusqueda() {
     }
 }
 
-function mostrarArtFrank() {
-  const datos = document.querySelector(".artfrank");
-    if (artFrank){
-        datos.style.display = 'none';
-        artFrank = false;
-    }
-    else{
-        datos.style.display = 'block';
-        artFrank = true;
-        datos.querySelector(".head3").scrollIntoView({behavior:"smooth"});
-    }
-}
-
 function mostrarArtJhoan() {
   const datos = document.querySelector(".artjhoan");
     if (artJhoan){
@@ -51,9 +38,24 @@ function mostrarArtJhoan() {
     else{
         datos.style.display = 'block';
         artJhoan = true;
-        datos.querySelector(".head4").scrollIntoView({ behavior:"smooth"});
+        datos.querySelector(".head3").scrollIntoView({ behavior:"smooth"});
     }
 }
+
+function mostrarArtFrank() {
+  const datos = document.querySelector(".artfrank");
+    if (artFrank){
+        datos.style.display = 'none';
+        artFrank = false;
+    }
+    else{
+        datos.style.display = 'block';
+        artFrank = true;
+        datos.querySelector(".head4").scrollIntoView({behavior:"smooth"});
+    }
+}
+
+
 function aviso(){
     window.alert("⚠️ Aviso Importante\n\n" +
     "Para el desarrollo de este trabajo se hizo uso de la herramienta ChatGPT de OpenAI, principalmente en asustos de redacción y correción de errores.\n\n" +
